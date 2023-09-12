@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Jardinagem</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Estilos da seção de serviços */
+        .servicos, .contato {
+            display: none;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Estilos adicionais para as seções */
+        .secao-titulo {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .secao-texto {
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Estilos para os links do menu */
+        nav a {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Estilos para os checkboxes de produtos */
+        .checkbox-label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para as imagens dos serviços */
+        .servico-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para o link do WhatsApp */
+        .whatsapp-link {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Estilos para avaliações */
+        .avaliacao {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .avaliacao h4 {
+            margin-top: 0;
+        }
+
+        .avaliacao p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Dados</li>
+            </ol>
+          </nav>
+        </section>
+        <div class="container">
+            <h1>Loja de Jardinagem</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#orcamento">Orçamento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="inicio" class="destaque">
+    <div class="container">
+        <div class="texto-empresa">
+            <h2>Sobre Nossa Empresa</h2>
+            <p>Somos apaixonados por jardins desde 1990, e nossa dedicação à jardinagem é mais do que um negócio - é um estilo de vida. Ao longo de décadas, temos orgulhosamente servido nossa comunidade, trazendo beleza e serenidade para lares e espaços ao ar livre.</p>
+
+            <p>Na Loja de Jardinagem, nossa missão é transformar espaços verdes em refúgios de tranquilidade. Nossa equipe de especialistas em jardinagem está comprometida em fornecer produtos da mais alta qualidade e serviços excepcionais para criar jardins incríveis para nossos clientes.</p>
+
+            <p>Desde plantas exuberantes até decorações encantadoras de jardim, temos um extenso catálogo de produtos para atender a todas as suas necessidades de jardinagem. Nossa paixão pelo verde se reflete em nossa dedicação em ajudá-lo a criar e manter um jardim que seja verdadeiramente único e deslumbrante.</p>
+
+            <p>Nossos serviços vão além do plantio e da manutenção. Oferecemos consultoria personalizada, projetos de paisagismo sob medida e muito mais. Nossa equipe de profissionais experientes trabalha em estreita colaboração com você para transformar sua visão em realidade.</p>
+
+            <p>É com orgulho que continuamos a fazer parte das histórias de nossos clientes, criando espaços ao ar livre que são verdadeiramente especiais. Seja para relaxar, socializar ou simplesmente apreciar a natureza, estamos aqui para tornar seu jardim um lugar encantador e convidativo.</p>
+
+            <p>Explore nossos produtos e serviços, e deixe-nos ajudá-lo a transformar seu espaço em um oásis verde. Bem-vindo à Loja de Jardinagem, onde a beleza da natureza encontra a criatividade humana.</p>
+            
+            <!-- Links para os vídeos -->
+            <h2>Vídeos Sobre Nossos Serviços</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=bBfOdqEh6Cw" target="_blank">FERTILIDADE DO SOLO</a></li>
+                <li><a href="https://www.youtube.com/watch?v=5VmBvKgsYHM" target="_blank">CONTROLE DE PRAGAS</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <section id="produtos" class="destaque">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <img src="tesourapalisad.png" alt="Produto 1">
+                <h3>Tesoura para Poda 18cm Palisad</h3>
+                <p>
+                    A Tesoura para Poda 18cm da marca Palisad é uma ferramenta de alta qualidade projetada para facilitar a poda precisa de plantas e arbustos. Com um tamanho compacto de 18 centímetros, esta tesoura é ideal para trabalhos de poda delicados e detalhados em jardins, hortas e áreas de paisagismo. Seu design ergonômico oferece conforto durante o uso prolongado, enquanto suas lâminas afiadas garantem cortes limpos e precisos, promovendo o crescimento saudável das plantas. Construída com materiais duráveis, a Tesoura para Poda Palisad 18cm é uma ferramenta confiável para entusiastas de jardinagem e profissionais, tornando a manutenção do jardim mais eficiente e eficaz.
+                </p>
+                <p><strong>Preço:</strong> R$ 50.00</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" class="produto-checkbox" value="Produto 1"> Selecionar
+                </label>
+            </div>
+            <div class="produto">
+                <img src="aparador.png" alt="Produto 2">
+                <h3>Aparador de Cerca Viva Elétrico CC500E1 127V(110V) Tekna</h3>
+                <p>O Aparador de Cerca Viva Elétrico CC500E1 da Tekna é uma ferramenta elétrica poderosa projetada para a poda e modelagem eficiente de cercas vivas e arbustos. Com uma voltagem de 127V (110V), este aparador é fácil de usar em ambientes residenciais com a eletricidade padrão. Sua lâmina afiada e eficiente permite cortes precisos e uniformes, ajudando a manter a beleza e a saúde das plantas em seu jardim. Com um design ergonômico e leve, oferece conforto durante longas sessões de trabalho, enquanto sua potência elétrica garante um desempenho consistente. O Aparador de Cerca Viva Elétrico Tekna CC500E1 é a escolha ideal para quem busca praticidade e qualidade na manutenção de áreas verdes.
+                </p>
+                <p><strong>Preço:</strong> R$ 60.00</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" class="produto-checkbox" value="Produto 2"> Selecionar
+                </label>
+            </div>
+            <div class="produto">
+                <img src="aparadordecerca.png" alt="Produto 3">
+                <h3>Aparador de Cerca Viva Bateria CC10B Tekna</h3>
+                <p>O Aparador de Cerca Viva a Bateria CC10B da Tekna é uma ferramenta versátil e conveniente para a poda e manutenção de cercas vivas e arbustos. Equipado com uma bateria recarregável, proporciona mobilidade total, sem a necessidade de fios ou tomadas elétricas, tornando-o perfeito para áreas externas. Sua lâmina eficaz e afiada garante cortes limpos e precisos, permitindo a modelagem e o cuidado adequado das plantas. Com um design ergonômico e leve, proporciona conforto durante o uso prolongado e é fácil de manobrar em qualquer direção. O Aparador de Cerca Viva a Bateria Tekna CC10B é a escolha ideal para quem valoriza a praticidade e a eficiência na manutenção do paisagismo e jardins.
+                </p>
+                <p><strong>Preço:</strong> R$ 10.00</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" class="produto-checkbox" value="Produto 3"> Selecionar
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="destaque">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servico">
+                <img src="controledepragas.jpg" alt="Serviço 1" class="servico-img">
+                <h3>Controle de Pragas</h3>
+                <p>O controle de pragas é um serviço especializado que visa proteger ambientes residenciais, comerciais e industriais contra a infestação de insetos, roedores, e outras pragas que podem representar riscos à saúde e causar danos materiais. Esse serviço envolve a identificação das pragas presentes, a implementação de medidas de prevenção, como selamento de pontos de entrada, e o uso de métodos adequados para erradicar ou controlar a população de pragas, como o uso de produtos químicos, armadilhas, iscas e técnicas de manejo integrado. O objetivo final do controle de pragas é criar um ambiente seguro, higiênico e confortável, livre de ameaças causadas por esses organismos indesejados. É uma solução essencial para manter a saúde, a qualidade de vida e a integridade de estruturas físicas em diferentes tipos de propriedades.</p>
+                <p><strong>Preço:</strong> R$ 100.00</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" class="servico-checkbox" value="Serviço 1"> Selecionar
+                </label>
+                <!-- Avaliação 1 do Controle de Pragas -->
+                <div class="avaliacao">
+                    <h4>Avaliação:</h4>
+                    <p>Excelente serviço! O controle de pragas realizado em minha casa foi extremamente eficaz. Não tive mais problemas com insetos indesejados desde então.</p>
+                </div>
+            </div>
+            <div class="servico">
+                <img src="fertilizacaodesolo.jpg" alt="Serviço 2" class="servico-img">
+                <h3>Fertilização de Solo</h3>
+                <p>A fertilização de solo é um serviço essencial para melhorar a qualidade e a fertilidade do solo em jardins, fazendas, hortas e áreas agrícolas. Envolve a aplicação cuidadosa de nutrientes essenciais, como nitrogênio, fósforo e potássio, juntamente com outros minerais e compostos orgânicos, com o objetivo de enriquecer o solo. Isso promove o crescimento saudável das plantas, aumenta a produção de culturas e contribui para a qualidade dos produtos agrícolas. A fertilização de solo também desempenha um papel vital na conservação do meio ambiente, garantindo que os nutrientes sejam usados de maneira eficiente, minimizando o escoamento de poluentes. Em resumo, a fertilização de solo é um serviço crucial para otimizar a produtividade agrícola e a saúde do ambiente, resultando em colheitas mais abundantes e sustentáveis.</p>
+                <p><strong>Preço:</strong> R$ 120.00</p>
+                <label class="checkbox-label">
+                    <input type="checkbox" class="servico-checkbox" value="Serviço 2"> Selecionar
+                </label>
+                <!-- Avaliação 2 da Fertilização de Solo -->
+                <div class="avaliacao">
+                    <h4>Avaliação:</h4>
+                    <p>Contratei o serviço de fertilização de solo para minha horta e fiquei impressionado com os resultados. As plantas cresceram de forma mais saudável e as colheitas foram incríveis.</p>
+                </div>
+            </div>
+            <!-- Mais serviços aqui... -->
+        </div>
+    </section>
+
+    <section id="contato" class="destaque">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Para entrar em contato conosco, use as informações abaixo:</p>
+            <p>Email: contato@lojadejardinagem.com</p>
+            <p>Telefone: (49) 9 8874-5956</p>
+            
+            <!-- Adicione o link do WhatsApp -->
+            <a href="https://wa.me/5549988745956" class="whatsapp-link" target="_blank">WhatsApp</a>
+            
+            <!-- Adicione a localização do Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.1940702420757!2d-52.63185052465226!3d-27.118696676524923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b40f95510e57%3A0xee3a63c82e62703e!2sR.%20Pernambuco%2C%201001%20-%20Santo%20Ant%C3%B4nio%2C%20Chapec%C3%B3%20-%20SC%2C%2089815-060!5e0!3m2!1spt-BR!2sbr!4v1694480715902!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="orcamento" class="destaque">
+        <div class="container">
+            <h2>Orçamento</h2>
+            <h3>Produtos Selecionados:</h3>
+            <ul id="produtos-selecionados"></ul>
+            <h3>Serviços Selecionados:</h3>
+            <ul id="servicos-selecionados"></ul>
+            <h3>Total do Orçamento:</h3>
+            <p id="total-orcamento">R$ 0.00</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Loja de Jardinagem</p>
+        </div>
+            <p>&copy; Desenvolvido por: João Antonio De Oliveira</p>
+    </footer>
+
+    <script>
+        // JavaScript para alternar entre as seções
+        const links = document.querySelectorAll('nav a');
+        const sections = document.querySelectorAll('section');
+
+        // Função para exibir a seção de início por padrão
+        function exibirInicioPorPadrao() {
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            const inicioSection = document.getElementById('inicio');
+            inicioSection.style.display = 'block';
+        }
+
+        // Chame a função para exibir a seção de início por padrão
+        exibirInicioPorPadrao();
+
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                // Esconde todas as seções
+                sections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // Mostra a seção correspondente ao link clicado
+                const targetSectionId = link.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetSectionId);
+                targetSection.style.display = 'block';
+            });
+        });
+
+        // JavaScript para rastrear seleções e calcular o orçamento
+        const produtosSelecionados = [];
+        const servicosSelecionados = [];
+        const produtosSelecionadosElement = document.getElementById('produtos-selecionados');
+        const servicosSelecionadosElement = document.getElementById('servicos-selecionados');
+        const totalOrcamentoElement = document.getElementById('total-orcamento');
+
+        // Função para calcular o total do orçamento
+        function calcularTotalOrcamento() {
+            // Substitua os valores abaixo pelos preços reais dos produtos e serviços
+            const precoProduto1 = 50.00;
+            const precoProduto2 = 60.00;
+            const precoProduto3 = 10.00;
+            const precoServico1 = 100.00;
+            const precoServico2 = 120.00;
+            const precoServico3 = 150.00;
+
+            // Calcule o total com base nas seleções
+            const totalProdutos = produtosSelecionados.reduce((total, produto) => {
+                switch (produto) {
+                    case 'Produto 1':
+                        return total + precoProduto1;
+                    case 'Produto 2':
+                        return total + precoProduto2;
+                    case 'Produto 3':
+                        return total + precoProduto3;
+                    default:
+                        return total;
+                }
+            }, 0);
+
+            const totalServicos = servicosSelecionados.reduce((total, servico) => {
+                switch (servico) {
+                    case 'Serviço 1':
+                        return total + precoServico1;
+                    case 'Serviço 2':
+                        return total + precoServico2;
+                    case 'Serviço 3':
+                        return total + precoServico3;
+                    default:
+                        return total;
+                }
+            }, 0);
+
+            const totalOrcamento = totalProdutos + totalServicos;
+
+            return totalOrcamento;
+        }
+
+        // Função para atualizar a exibição do orçamento
+        function atualizarExibicaoOrcamento() {
+            produtosSelecionadosElement.innerHTML = '';
+            servicosSelecionadosElement.innerHTML = '';
+
+            produtosSelecionados.forEach(produto => {
+                const li = document.createElement('li');
+                li.textContent = produto;
+                produtosSelecionadosElement.appendChild(li);
+            });
+
+            servicosSelecionados.forEach(servico => {
+                const li = document.createElement('li');
+                li.textContent = servico;
+                servicosSelecionadosElement.appendChild(li);
+            });
+
+            const totalOrcamento = calcularTotalOrcamento();
+            totalOrcamentoElement.textContent = `R$ ${totalOrcamento.toFixed(2)}`;
+        }
+
+        // Event listener para seleção de produtos
+        const produtoCheckboxes = document.querySelectorAll('.produto-checkbox');
+        produtoCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const produtoNome = checkbox.value;
+                if (checkbox.checked) {
+                    produtosSelecionados.push(produtoNome);
+                } else {
+                    const index = produtosSelecionados.indexOf(produtoNome);
+                    if (index !== -1) {
+                        produtosSelecionados.splice(index, 1);
+                    }
+                }
+                atualizarExibicaoOrcamento();
+            });
+        });
+
+        // Event listener para seleção de serviços
+        const servicoCheckboxes = document.querySelectorAll('.servico-checkbox');
+        servicoCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const servicoNome = checkbox.value;
+                if (checkbox.checked) {
+                    servicosSelecionados.push(servicoNome);
+                } else {
+                    const index = servicosSelecionados.indexOf(servicoNome);
+                    if (index !== -1) {
+                        servicosSelecionados.splice(index, 1);
+                    }
+                }
+                atualizarExibicaoOrcamento();
+            });
+        });
+    </script>
+</body>
+</html>
